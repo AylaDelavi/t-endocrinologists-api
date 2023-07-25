@@ -8,7 +8,7 @@ Oiii, boas vindas à documentação da minha API, projeto desenvolvido para a fi
 
 Com essa API é possível buscar médicos através de seu/sua: *nome*, *idade*, *atendimentos*, *cidade*, entre outros.
 
-Essa API é uma iniciativa que acontece com essa finalidade: criar um espaço seguro e inclusivo, onde todas as identidades de gênero são respeitadas e valorizadas. Você pode tanto ser uma pessoa trans em busca de assistência médica ou um profissional de saúde que está disposto a oferecer apoio e suporte a pessoas trans. Essa API tenta proporcionar uma jornada para o começo da terapia hormonal mais acessível e tranquila para todos que desejam começar. <3
+Essa API é uma iniciativa que acontece com essa finalidade: criar um espaço seguro e inclusivo, onde todas as identidades de gênero são respeitadas e valorizadas. Você pode tanto ser uma pessoa trans em busca de assistência médica ou um profissional de saúde que está disposto a oferecer apoio e suporte a pessoas trans. Essa API tenta proporcionar o começo da terapia hormonal mais acessível e tranquila para todos que desejam começar. <3
 
 ## rotas
 
@@ -102,7 +102,7 @@ Com as requisições da API, podemos:
 </tr>
 <table>
 
-*Você também pode acessar a documentação por* aqui [aqui](https://t-endocrinologists-api.onrender.com/minha-rota-de-documentacao/#/).
+*Você também pode acessar a documentação por* [aqui](https://t-endocrinologists-api.onrender.com/minha-rota-de-documentacao/#/).
 
 ## banco de dados
 
