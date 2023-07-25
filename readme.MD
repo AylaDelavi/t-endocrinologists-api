@@ -108,14 +108,12 @@ Com as requisições da API, podemos:
 
 Nesta aplicação, estou usando o **MongoDB** de banco de dados juntamente com a dependência do mongoose.
 
-![memory](https://www.ambientelivre.com.br/media/k2/items/cache/e9432fccf28a953514f077b86e5e657a_M.jpg)
-
 ## autentificação
 
 Para a proteção das rotas, estou usando o **jsonwebtoken** juntamente com um encriptador em hash.
 
-![memory](https://blog.ippon.fr/content/images/2017/10/jwt.svg)
-
 ## contato
+
+
 
 ![memory](https://cdn.discordapp.com/attachments/1067527845829681182/1133460025868816514/gif_cute.gif)
