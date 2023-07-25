@@ -102,4 +102,16 @@ Com as requisições da API, podemos:
 </tr>
 <table>
 
+*Você também pode acessar a documentação por* aqui [aqui](https://t-endocrinologists-api.onrender.com/minha-rota-de-documentacao/#/).
+
+## banco de dados
+
+Nesta aplicação, estou usando o **MongoDB** de banco de dados juntamente com a dependência do mongoose.
+
+## autentificação
+
+Para a proteção das rotas, estou usando o **jsonwebtoken** juntamente com um encriptador em hash.
+
+## contato
+
 ![memory](https://cdn.discordapp.com/attachments/1067527845829681182/1133460025868816514/gif_cute.gif)
