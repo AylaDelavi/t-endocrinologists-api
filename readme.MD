@@ -55,4 +55,51 @@ Com as requisições da API, podemos:
   <td>/gender</td>
   <td>acessar médicos pelo gênero</td>
 </tr>
+<tr>
+  <td>POST</td>
+  <td>/addDoctor</td>
+  <td>adicionar um novo médico</td>
+</tr>
+<tr>
+  <td>PATCH</td>
+  <td>/:id</td>
+  <td>atualizar informações do médico pelo ID</td>
+</tr>
+<tr>
+  <td>DELETE</td>
+  <td>/:id</td>
+  <td>deletar um médico pelo ID</td>
+</tr>
+<tr>
+  <td>GET</td>
+  <td>/allHealthInsurances</td>
+  <td>acessar todos os planos de saúde</td>
+</tr>
+<tr>
+  <td>GET</td>
+  <td>/:id</td>
+  <td>acessar plano de saúde pelo ID</td>
+</tr>
+<tr>
+  <td>GET</td>
+  <td>/name</td>
+  <td>acessar plano de saúde pelo nome</td>
+</tr>
+<tr>
+  <td>POST</td>
+  <td>/addHealthInsurance</td>
+  <td>adicionar um novo plano de saúde</td>
+</tr>
+<tr>
+  <td>PATCH</td>
+  <td>/update/:id</td>
+  <td>atualizar informações do plano de saúde pelo ID</td>
+</tr>
+<tr>
+  <td>DELETE</td>
+  <td>/delete/:id</td>
+  <td>deletar plano de saúde pelo ID</td>
+</tr>
 <table>
+
+![memory](https://cdn.discordapp.com/attachments/1067527845829681182/1133460025868816514/gif_cute.gif)
