@@ -106,6 +106,7 @@ Essa API é uma iniciativa que acontece com essa finalidade: criar um espaço se
 
 ## Arquitetura MVC
 
+```bash
 📁 t-endocrinologists-api
    |
    |- 📁 src
@@ -145,9 +146,11 @@ Essa API é uma iniciativa que acontece com essa finalidade: criar um espaço se
    |- 📑 README.md
    |- 📑 server.js
    |- 📑 swagger.js
+```
 
-:sparkles: Instalação
+# :sparkles: Instalação
 
+```bash
 # Clonar o repositório
 $ git clone https://github.com/AylaDelavi/t-endocrinologists-api
 
@@ -159,6 +162,7 @@ $ npm install
 
 # Executar o servidor
 $ npm start
+```
 
 :revolving_hearts: Tecnologias e pacotes
 
