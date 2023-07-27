@@ -10,7 +10,7 @@ Com essa API é possível buscar médicos através de seu/sua: *nome*, *idade*, 
 
 Essa API é uma iniciativa que acontece com essa finalidade: criar um espaço seguro e inclusivo, onde todas as identidades de gênero são respeitadas e valorizadas. Você pode tanto ser uma pessoa trans em busca de assistência médica ou um profissional de saúde que está disposto a oferecer apoio e suporte a pessoas trans. Essa API tenta tornar o começo da terapia hormonal mais acessível e tranquila para todos que desejam começar. <3
 
-## Rotas
+## :hibiscus: Rotas
 
 :heart_decoration: Com as requisições da API, podemos:
 
@@ -104,7 +104,7 @@ Essa API é uma iniciativa que acontece com essa finalidade: criar um espaço se
 
 :cherry_blossom: *Você também pode acessar a documentação por* [aqui](https://t-endocrinologists-api.onrender.com/minha-rota-de-documentacao/#/).
 
-## Arquitetura MVC
+## :heartpulse: Arquitetura MVC
 
 ```bash
 📁 t-endocrinologists-api
