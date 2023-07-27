@@ -10,7 +10,7 @@ Com essa API é possível buscar médicos através de seu/sua: *nome*, *idade*, 
 
 Essa API é uma iniciativa que acontece com essa finalidade: criar um espaço seguro e inclusivo, onde todas as identidades de gênero são respeitadas e valorizadas. Você pode tanto ser uma pessoa trans em busca de assistência médica ou um profissional de saúde que está disposto a oferecer apoio e suporte a pessoas trans. Essa API tenta tornar o começo da terapia hormonal mais acessível e tranquila para todos que desejam começar. <3
 
-## rotas
+## Rotas
 
 :heart_decoration: Com as requisições da API, podemos:
 
@@ -104,16 +104,80 @@ Essa API é uma iniciativa que acontece com essa finalidade: criar um espaço se
 
 :cherry_blossom: *Você também pode acessar a documentação por* [aqui](https://t-endocrinologists-api.onrender.com/minha-rota-de-documentacao/#/).
 
-## banco de dados
+## Arquitetura MVC
 
-:heartpulse: Nesta aplicação, estou usando o **MongoDB** de banco de dados juntamente com a dependência do mongoose.
+📁 t-endocrinologists-api
+   |
+   |- 📁 src
+   |   |
+   |   |- 📁 controllers
+   |       |- 📑 doctorsController.js
+   |       |- 📑 healthInsurancetroller.js
+   |       |- 📑 personController.js
+   |
+   |   |- 📁 database
+   |       |- 📑 mongooseConect.js
+   |
+   |   |- 📁 models
+   |       |- 📑 doctorsModel.js
+   |       |- 📑 healthInsuranceModel.js
+   |       |- 📑 personModel.js
+   |
+   |    |- 📁 routes
+   |       |- 📑 doctorsRoutes.js 
+   |       |- 📑 healthInsuranceRoutes.js
+   |       |- 📑 personRoutes.js   
+   |
+   |    |- 📑 app.js
+   |
+   |- 📁 swagger
+   |   |- 📑 swagger_output.json
 
-## autentificação
+   |- 📁 tests
+   |   |- 📑 doctors.test.js
+   |   |- 📑 healthInsurance.test.js
+   |
+   |- 📑 .env
+   |- 📑 .env.example
+   |- 📑 .gitignore
+   |- 📑 package-lock.json
+   |- 📑 package.json
+   |- 📑 README.md
+   |- 📑 server.js
+   |- 📑 swagger.js
 
-:two_hearts: Para a proteção das rotas, estou usando o **jsonwebtoken** juntamente com um encriptador em hash.
+:sparkles: Instalação
+
+# Clonar o repositório
+$ git clone https://github.com/AylaDelavi/t-endocrinologists-api
+
+# Entrar na pasta do repositório
+$ cd t-endocrinologists-api
+
+# Instalar as dependências
+$ npm install
+
+# Executar o servidor
+$ npm start
+
+:revolving_hearts: Tecnologias e pacotes
+
+Javascript | Node.js | Git | VSCode | MongoDB | Render | Postman
+
+:love_letter: Dependências:
+
+- nodemon
+- bcrypt
+- cors
+- dotenv
+- express
+- jsonwebtoken
+- mongoose
+- swagger-autogen
+- swagger-ui-express
 
 ## contato
 
-
+:tulip: email: ayladelavi@gmail.com
 
 ![memory](https://cdn.discordapp.com/attachments/1067527845829681182/1133460025868816514/gif_cute.gif)
